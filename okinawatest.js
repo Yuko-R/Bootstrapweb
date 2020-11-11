@@ -85,3 +85,11 @@ $('.submit').on('click',function(){
 								     　　　
 								  }
 				)
+
+// ------------- スクロールトップ --------------------- //
+$('.btn-outline-secondary').on('click',function(){
+	$('html,body').animate({scrollTop:0})
+});
+
+console.log($('.btn-outline-secondary'));
+console.log($('html,body'));
