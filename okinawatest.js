@@ -1,3 +1,4 @@
+
 let i = 0
 $('.q-1btn').on('click',function(){
 									i++
@@ -78,7 +79,12 @@ $('.submit').on('click',function(){
 									 if (res1+res2+res3+res4+res5+res6+res7 < 5)
 									 {
 									  $('.modal-body').text(Math.round((res1+res2+res3+res4+res5+res6+res7)/7*100)+'点です！下記のリンクで今すぐ飛行機を取って帰ってください!')
+<<<<<<< HEAD
 									  $('.modal-body').append('<a href="https://www.airtrip.jp/air-lp/?source=listing.adwords.airtrip.jp&gclid=CjwKCAiAkan9BRAqEiwAP9X6UYlLloC6PLnjzlT3SjxeMJMqXKVNAiD7ijqQmoZBlA_gOOWBTfrN3BoCPAUQAvD_BwE"><i class="fas fa-plane"></i>☜Click</a>')
+=======
+									  $('.modal-body').append('<a href="https://www.airtrip.jp/air-lp/?source=listing.adwords.airtrip.jp&gclid=CjwKCAiAkan9BRAqEiwAP9X6UYlLloC6PLnjzlT3SjxeMJMqXKVNAiD7ijqQmoZBlA_gOOWBTfrN3BoCPAUQAvD_BwE"><i class="fas fa-plane"></i></a>')
+									  
+>>>>>>> d0ad42e1959437116b0007ea68ab75a3601940a0
 									 }
 									 else if (res1+res2+res3+res4+res5+res6+res7 < 7)
 									 {$('.modal-body').text(Math.round((res1+res2+res3+res4+res5+res6+res7)/7*100)+'点です！君は立派な沖縄県民になれます!')}
@@ -87,9 +93,4 @@ $('.submit').on('click',function(){
 				)
 
 // ------------- スクロールトップ --------------------- //
-$('.btn-outline-secondary').on('click',function(){
-	$('html,body').animate({scrollTop:0})
-});
-
-console.log($('.btn-outline-secondary'));
-console.log($('html,body'));
+$('.btn-outline-secondary').on('click',function(){$('html,body').animate({scrollTop:0})})
