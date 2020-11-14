@@ -3,6 +3,10 @@ body {
   　padding: 0;
 }
 
+header {
+	background-color: #dcdcdc;
+}
+
 .container {
 	position: fixed;
 }
