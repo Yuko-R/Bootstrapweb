@@ -1,0 +1,1 @@
+$('.btn-warning').on('click',function(){})
